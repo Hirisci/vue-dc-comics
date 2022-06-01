@@ -1,10 +1,11 @@
 <template>
-  <img src="/img/dc-logo.png" alt="" />
+  <p>{{ txt }}</p>
 </template>
 
 <script>
 export default {
-  name: "ALogo",
+  name: "ATxt",
+  props: ["txt"],
 };
 </script>
 

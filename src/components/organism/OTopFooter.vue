@@ -4,7 +4,7 @@
       <m-footer-link
         v-for="(icon, idx) in navList"
         :src="icon.img"
-        :name="icon.name"
+        :name="icon.msg"
         :key="idx"
       />
     </div>
@@ -47,6 +47,13 @@ export default {
 
 <style lang="scss" scoped>
 .footer-top {
+  padding: var(--padding-xl) 0;
   background-color: var(--clr-active);
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: var(--padding-md);
+  }
 }
 </style>
