@@ -23,8 +23,4 @@ export default {
 
 <style lang="scss">
 @import "./assets/style/style.scss";
-
-div > * {
-  padding: var(--padding-md);
-}
 </style>

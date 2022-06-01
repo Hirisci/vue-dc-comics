@@ -1,13 +1,27 @@
 
 <template>
-  <div>test 1</div>
+  <header class="container">
+    <a-logo />
+    <m-nav />
+  </header>
 </template>
 
 <script>
+import ALogo from "../atom/ALogo.vue";
+import MNav from "../molecule/MNav.vue";
+
 export default {
+  components: { ALogo, MNav },
   name: "OHeader",
 };
 </script>
 
-<style scope lang="scss">
+<style scoped lang="scss">
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-md) var(--padding-xl);
+  position: relative;
+}
 </style>
