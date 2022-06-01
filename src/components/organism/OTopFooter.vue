@@ -48,5 +48,6 @@ export default {
 <style lang="scss" scoped>
 .footer__top {
   background-color: var(--clr-active);
+  height: 20rem;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <a href="#" class="card">
-    <img :src="require(`@/asset/img/${src}`)" :alt="name" class="card_img" />
+    <img :src="`/img/${src}`" :alt="name" class="card_img" />
     <div class="card_name">{{ name }}</div>
   </a>
 </template>
@@ -13,4 +13,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.card {
+  img {
+    width: 50px;
+    aspect-ratio: 1/1;
+  }
+}
 </style>
