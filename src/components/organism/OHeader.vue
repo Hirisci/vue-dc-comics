@@ -21,7 +21,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--padding-md) var(--padding-xl);
   position: relative;
 }
 </style>

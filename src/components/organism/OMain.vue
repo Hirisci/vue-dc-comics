@@ -12,7 +12,7 @@ export default {
 
 <style scoped lang="scss">
 main {
-  height: 15rem;
+  height: 5rem;
   background-color: black;
   color: #fff;
 }

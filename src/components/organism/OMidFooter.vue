@@ -1,5 +1,5 @@
 <template>
-  <div class="mid-footer">
+  <div class="footer-mid">
     <div class="container">
       <img src="/img/dc-logo-bg.png" alt="" />
       <MList :navList="footerFist" />
@@ -70,19 +70,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mid-footer {
+.footer-mid {
+  overflow: hidden;
   background-image: url("../../../public/img/footer-bg.jpg");
   background-size: cover;
 
   .container {
     position: relative;
-    color: #fff;
+    color: var(--clr-text-1);
     display: flex;
     gap: 2.5rem;
     img {
       position: absolute;
+      transform: scale(1.6);
       top: 0;
-      right: 0;
+      right: 6rem;
       bottom: 0;
       height: 100%;
     }

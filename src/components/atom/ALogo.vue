@@ -8,5 +8,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+img {
+  transform: scale(0.9);
+}
 </style>

@@ -21,7 +21,7 @@ export default {
   flex-direction: row;
   align-items: center;
   text-decoration: none;
-  color: #fff;
+  color: var(--clr-text-1);
   gap: 0.5rem;
 
   &_name {

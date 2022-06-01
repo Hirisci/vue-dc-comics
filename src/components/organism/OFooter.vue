@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <footer>
     <OTopFooter />
     <OMidFooter />
-  </div>
+    <OBotFooter />
+  </footer>
 </template>
 
 <script>
+import OBotFooter from "./OBotFooter.vue";
 import OMidFooter from "./OMidFooter.vue";
 import OTopFooter from "./OTopFooter.vue";
 export default {
-  components: { OTopFooter, OMidFooter },
+  components: { OTopFooter, OMidFooter, OBotFooter },
   name: "OFooter",
 };
 </script>
