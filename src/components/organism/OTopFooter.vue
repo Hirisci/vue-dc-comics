@@ -3,7 +3,7 @@
     <div class="container">
       <m-footer-link
         v-for="(icon, idx) in navList"
-        :src="incon.img"
+        :src="icon.img"
         :name="icon.name"
         :key="idx"
       />
@@ -46,8 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.footer__top {
+.footer-top {
   background-color: var(--clr-active);
-  height: 20rem;
 }
 </style>
