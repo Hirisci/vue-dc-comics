@@ -1,5 +1,5 @@
 <template>
-  <img src="/img/dc-logo.png" alt="" />
+  <img src="@/assets/img/dc-logo.png" alt="" />
 </template>
 
 <script>

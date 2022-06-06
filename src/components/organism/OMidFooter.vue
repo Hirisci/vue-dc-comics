@@ -1,7 +1,7 @@
 <template>
   <div class="footer-mid">
     <div class="container">
-      <img src="/img/dc-logo-bg.png" alt="" />
+      <img src="../../assets/img/dc-logo-bg.png" alt="" />
       <MList :navList="footerFist" />
       <MList :navList="footerSec" />
       <MList :navList="footerTer" />
@@ -72,7 +72,7 @@ export default {
 <style lang="scss" scoped>
 .footer-mid {
   overflow: hidden;
-  background-image: url("../../../public/img/footer-bg.jpg");
+  background-image: url("../../assets/img/footer-bg.jpg");
   background-size: cover;
 
   .container {

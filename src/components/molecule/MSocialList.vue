@@ -4,7 +4,7 @@
     <ul>
       <li v-for="(social, idx) in socials" :key="idx">
         <a :href="social.href"
-          ><img :src="`/img/${social.img}`" alt="social"
+          ><img :src="require(`@/assets/img/${social.img}`)" alt="social"
         /></a>
       </li>
     </ul>
