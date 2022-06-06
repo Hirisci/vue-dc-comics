@@ -1,18 +1,21 @@
 <template>
   <main>
-    <div class="container">text here</div>
+    <OSection class="hero"><AHeroImg /></OSection>
+    <OSection> </OSection>
   </main>
 </template>
 
 <script>
+import AHeroImg from "../atom/AHeroImg.vue";
+// import OSection from "./OSection.vue";
 export default {
+  components: { AHeroImg },
   name: "OMain",
 };
 </script>
 
 <style scoped lang="scss">
 main {
-  height: 5rem;
   background-color: black;
   color: #fff;
 }
