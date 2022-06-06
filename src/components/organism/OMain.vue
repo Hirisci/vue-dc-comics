@@ -1,22 +1,23 @@
 <template>
   <main>
-    <OSection class="hero"><AHeroImg /></OSection>
-    <OSection> </OSection>
+    <OSection class="hero" />
+    <o-game-list />
   </main>
 </template>
 
 <script>
-import AHeroImg from "../atom/AHeroImg.vue";
-// import OSection from "./OSection.vue";
+import OGameList from "./OGameList.vue";
+import OSection from "./OSection.vue";
+
 export default {
-  components: { AHeroImg },
+  components: { OSection, OGameList },
   name: "OMain",
 };
 </script>
 
 <style scoped lang="scss">
 main {
-  background-color: black;
+  background-color: var(--clr-bg-main);
   color: #fff;
 }
 </style>

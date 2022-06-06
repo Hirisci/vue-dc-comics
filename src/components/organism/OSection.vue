@@ -9,4 +9,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.hero {
+  background-image: url(../../assets/img/jumbotron.jpg);
+  background-size: cover;
+  height: 25vh;
+}
 </style>
